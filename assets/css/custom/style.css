@@ -1,0 +1,282 @@
+/* (3840x2160) 4K Display */
+@media (max-width: 3840px) {
+    h2.headline {
+        font-family: "Comic Sans MS";
+        font-size: 160px;
+        text-align: center;
+    }
+
+    p.intro-text {
+        font-size: 50px;
+        display: flex;
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+
+    p.intro-text.paragraph1 {
+        padding-top: 5em;
+    }
+
+    p.intro-text.paragraph2 {
+        padding-top: 0em;
+    }
+
+    img.stage-image {
+        width: 950px;
+        height: 950px;
+        padding-top: 5em;
+        padding-left: 50em;
+        position: relative;
+    }
+
+    div.stage-spacer {
+        padding-top: 3em;
+    }
+
+    /* STAGE-OVERLAYS */
+    div.stage-overlay {
+        position: absolute;
+    }
+
+    .stage-overlay.stage-1 {
+        font-size: 1.5em;
+        top: 25em;
+        right: 41em;
+    }
+
+    .stage-overlay.stage-2 {
+        font-size: 1em;
+        left: 55em;
+        top: 40em;
+    }
+
+    .stage-overlay.stage-3 {
+        font-size: 1em;
+        left: 55em;
+        top: 42em;
+    }
+
+    .stage-overlay.stage-4 {
+        font-size: 3em;
+        left: 19em;
+        top: 13.5em;
+    }
+
+    .stage-overlay.stage-5 {
+        font-size: 1em;
+        left: 55em;
+        top: 40.5em;
+    }
+
+    .stage-overlay.stage-6 {
+        font-size: 1em;
+        left: 55em;
+        top: 39.5em;
+    }
+
+    .stage-overlay.stage-7 {
+        font-size: 3em;
+        left: 18.5em;
+        top: 12.75em;
+    }
+
+    .stage-overlay.stage-8 {
+        font-size: 1em;
+        left: 55em;
+        top: 42em;
+    }
+
+    .stage-overlay.stage-9 {
+        font-size: 1em;
+        left: 55em;
+        top: 41.5em;
+    }
+
+    .stage-overlay.stage-10 {
+        font-size: 1em;
+        left: 55em;
+        top: 42.5em;
+    }
+
+    .stage-overlay.stage-11 {
+        font-size: 1em;
+        left: 55em;
+        top: 40em;
+    }
+
+    .stage-overlay.stage-12 {
+        font-size: 1em;
+        left: 55em;
+        top: 41.5em;
+    }
+
+    .stage-overlay.stage-13 {
+        font-size: 1em;
+        left: 55em;
+        top: 38.75em;
+    }
+
+    .stage-overlay.stage-14 {
+        font-size: 1em;
+        left: 55em;
+        top: 37em;
+    }
+
+    .stage-overlay.stage-15 {
+        font-size: 4em;
+        left: 14em;
+        top: 10em;
+    }
+
+    .stage-overlay.stage-16 {
+        font-size: 1em;
+        left: 55em;
+        top: 39.75em;
+    }
+
+    /* BUTTONS */
+    button.next-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.current-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.show-result {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #ffca2c;
+    }
+
+    button.end-game {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #a52834;
+    }
+
+
+    /* ID-BASED STYLES */
+    #icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10em;
+    }
+
+    #preview-icon {
+        width: 720px;
+        height: 720px;
+    }
+
+    #start-btn {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    #start-game-btn {
+        margin-top: 1.75em;
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+}
+
+/* (1920x1080) Full HD Display */
+@media (max-width: 1920px) {
+    h2.headline {
+        font-family: Candara;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    #icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -6em;
+    }
+
+    #preview-icon {
+        width: 550px;
+        height: 550px;
+    }
+
+    #start-btn {
+        width: 125px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 25px;
+        color: black;
+        background-color: limegreen;
+    }
+}
+
+/* (1600x900) HD+ Display */
+@media (max-width: 1600px) {
+    p.headline {
+        font-family: Candara;
+        font-size: 75px;
+        text-align: center;
+    }
+
+    #icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -6em;
+    }
+
+    #preview-icon {
+        width: 550px;
+        height: 550px;
+    }
+
+    #start-btn {
+        width: 100px;
+        height: 45px;
+        font-size: 17px;
+        border-radius: 20px;
+        color: black;
+        background-color: limegreen;
+    }
+
+}
+
+/* SCREEN SIZE IGNORED */
+
+.content-justify-center {
+    text-align: center;
+}
+
+.btn {
+    cursor: grab;
+}
+
+.btn-conatiner {
+    padding-top: 4em;
+}
