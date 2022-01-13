@@ -267,6 +267,51 @@
 
 }
 
+/* SCREEN RESOLUTION OF SCHOOL SCREENS */
+@media (max-width: 1280px) and (max-height: 1024px) {
+    p.headline {
+        font-family: Candara;
+        font-size: 75px;
+        text-align: center;
+    }
+
+    p.intro-text {
+        font-size: 2.25em;
+        display: flex;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    p.intro-text.paragraph1 {
+        padding-top: 3.75em;
+    }
+
+    p.intro-text.paragraph2 {
+        padding-top: 0em;
+    }
+
+    #icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -6em;
+    }
+
+    #preview-icon {
+        width: 550px;
+        height: 550px;
+    }
+
+    #start-btn {
+        width: 100px;
+        height: 45px;
+        font-size: 17px;
+        border-radius: 20px;
+        color: black;
+        background-color: limegreen;
+    }
+}
+
 /* SCREEN SIZE IGNORED */
 
 .content-justify-center {
