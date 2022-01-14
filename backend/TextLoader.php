@@ -21,7 +21,7 @@ class TextLoader
             case 7:
                 return 'Auf dem Weg zum geplanten Ort wirst du von einem Auto angefahren. Diesmal aber erlebst du die Fahrt ins Krankenhaus bei vollem Bewusstsein.';
             case 8:
-                return 'Im Halbschlaf bekommst du noch mit, wie einer der Roboter zu einem Arzt sagt:';
+                return 'Im Halbschlaf bekommst du noch mit, wie einer der Roboter zu einem Arzt sagt: „Doktor, wir brauchen Ersatzorgane und diese Person hätte die genau passenden. Es könnten fünf Menschen gerettet werden!“ Der Arzt kommt zu dir ans Bett:';
             case 9:
                 return 'Nach einstündigem Heilschlaf wirst du entlassen. Einer der Roboter hält dich jedoch in der Lobby auf.';
             case 10:
