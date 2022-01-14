@@ -39,7 +39,7 @@ class StageLoader
     {
         $this->loadImage($stageId);
         echo('<div class="stage-spacer"></div>');
-        echo('<div class="stage-overlay stage-' . $stageId . '"><br>');
+        echo('<div class="stage-overlay stage-' . $stageId . ' dynamic-line-break"><br>');
 
         $this->loadAnswers($stageId);   /* Load answers based on current stageId */
 
