@@ -18,6 +18,35 @@ final class Evaluator
     {
     }
 
+    public function printActionbar(int $actionbarId): void
+    {
+
+        $percentages = calcAllPercentages(getCurrentEval());
+
+        switch ($actionbarId) {
+            case 1:
+            {
+                echo('<h6 style="font-size: 1.2em"><span style="float: left">Konsequentalismus (' . $percentages[0][0] * 100 . '%)</span><span style="float: right">Deontologie (' . $percentages[0][1] * 100 . '%)</span></h6><br><div class="progress" style="height: 2em; border-radius: 20px; font-size: 1em;"><div class="progress-bar" style="width: ' . $percentages[0][0] * 100 . '%; background-color: #c21010; animation: playAnimation 3s;"></div><div class="progress-bar" style="width: ' . $percentages[0][1] * 100 . '%; background-color: #ffe600; animation: playAnimation 3s;"></div></div><div class="stage-spacer"></div>');
+                break;
+            }
+            case 2:
+            {
+                echo('<h6 style="font-size: 1.2em"><span style="float: left">Determinismus (' . $percentages[1][0] * 100 . '%)</span><span style="float: right">Indeterminismus (' . $percentages[1][1] * 100 . '%)</span></h6><br><div class="progress" style="height: 2em; border-radius: 20px; font-size: 1em;"><div class="progress-bar" style="width: ' . $percentages[1][0] * 100 . '%; background-color: #0e9e11; animation: playAnimation 3s;"></div><div class="progress-bar" style="width: ' . $percentages[1][1] * 100 . '%; background-color: #a30883; animation: playAnimation 3s;"></div></div><div class="stage-spacer"></div>');
+                break;
+            }
+            case 3:
+            {
+                echo('<h6 style="font-size: 1.2em"><span style="float: left">Stoizismus (' . $percentages[2][0] * 100 . '%)</span><span style="float: right">Hedonismus (' . $percentages[2][1] * 100 . '%)</span></h6><br><div class="progress" style="height: 2em; border-radius: 20px; font-size: 1em;"><div class="progress-bar" style="width: ' . $percentages[2][0] * 100 . '%; background-color: #0ca3fa; animation: playAnimation 3s;"></div><div class="progress-bar" style="width: ' . $percentages[2][1] * 100 . '%; background-color: #fa9b0c; animation: playAnimation 3s;"></div></div><div class="stage-spacer"></div>');
+                break;
+            }
+            case 4:
+            {
+                echo('<h6 style="font-size: 1.2em"><span style="float: left">Rationalismus (' . $percentages[3][0] * 100 . '%)</span><span style="float: right">Empirismus (' . $percentages[3][1] * 100 . '%)</span></h6><br><div class="progress" style="height: 2em; border-radius: 20px; font-size: 1em;"><div class="progress-bar" style="width: ' . $percentages[3][0] * 100 . '%; background-color: #0c0cfa; animation: playAnimation 3s;"></div><div class="progress-bar" style="width: ' . $percentages[3][1] * 100 . '%; background-color: #12ff16; animation: playAnimation 3s;"></div></div><div class="stage-spacer"></div>');
+                break;
+            }
+        }
+    }
+
     public function evaluate(int $stageId, array $postArray, array $eval): array
     {
         $newEval = $eval;
