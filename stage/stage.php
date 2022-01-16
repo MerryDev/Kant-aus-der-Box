@@ -1,5 +1,7 @@
 <?php
-include_once '../backend/StageLoader.php';
+include_once '../backend/classes/StageLoader.php';
+include_once '../backend/classes/Evaluator.php';
+
 ?>
 
 <!DOCTYPE html>
