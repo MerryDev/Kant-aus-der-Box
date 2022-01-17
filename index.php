@@ -14,12 +14,16 @@
 <div class="container">
     <h2 class="headline">Kant aus der Box</h2>
     <div id="icon-container">
+        <img src="assets/img/skrime.png" id="partner-icon" alt="">
         <img src="assets/img/icon.png" id="preview-icon" alt="">
     </div>
     <div class="content-justify-center btn-conatiner">
         <form method="post" action="stage/intro">
             <button type="submit" id="start-btn" class="btn">Start</button>
         </form>
+    </div><br>
+    <div class="content-justify-center" style="font-size: 2em;">
+        &#10084;&#65039; Hosted by Skrime
     </div>
 </div>
 </body>
