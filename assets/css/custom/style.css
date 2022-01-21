@@ -6,36 +6,6 @@
         text-align: center;
     }
 
-    #icon-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: -6em;
-    }
-
-    #preview-icon {
-        width: 550px;
-        height: 550px;
-    }
-
-    #start-btn {
-        width: 125px;
-        height: 50px;
-        font-size: 20px;
-        border-radius: 25px;
-        color: black;
-        background-color: limegreen;
-    }
-}
-
-/* SCREEN RESOLUTION OF SCHOOL SCREENS */
-@media (max-width: 1280px) and (max-height: 1024px) {
-    p.headline {
-        font-family: Candara, serif;
-        font-size: 75px;
-        text-align: center;
-    }
-
     p.intro-text {
         font-size: 2.25em;
         display: flex;
@@ -189,6 +159,281 @@
         border-radius: 20px;
         color: black;
         background-color: limegreen;
+    }
+
+    /* BUTTONS */
+    button.next-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.current-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.show-result {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #ffca2c;
+    }
+
+    button.end-game {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #a52834;
+    }
+}
+
+/* SCREEN RESOLUTION OF SCHOOL SCREENS */
+@media (max-width: 1280px) and (max-height: 1024px) {
+    p.headline {
+        font-family: Candara, serif;
+        font-size: 75px;
+        text-align: center;
+    }
+
+    p.intro-text {
+        font-size: 2.25em;
+        display: flex;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+    p.intro-text.paragraph1 {
+        padding-top: 3.75em;
+    }
+
+    p.intro-text.paragraph2 {
+        padding-top: 0;
+    }
+
+    img.stage-image {
+        width: 600px;
+        height: 600px;
+        padding-top: 8em;
+        padding-left: 22em;
+        position: relative;
+    }
+
+    div.stage-overlay {
+        position: absolute;
+    }
+
+    .stage-overlay.dynamic-line-break {
+        width: 500px;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .stage-overlay.stage-1 {
+        font-size: 17px;
+        top: 26.25em;
+        left: 25em;
+    }
+
+    .stage-overlay.stage-2 {
+        font-size: 0.75em;
+        top: 40em;
+        left: 34em;
+    }
+
+    .stage-overlay.stage-3 {
+        font-size: 1em;
+        top: 29em;
+        left: 25em;
+    }
+
+    .stage-overlay.stage-4 {
+        font-size: 1.25em;
+        left: 20em;
+        top: 23em;
+    }
+
+    .stage-overlay.stage-5 {
+        font-size: 1em;
+        left: 25em;
+        top: 29.2em;
+    }
+
+    .stage-overlay.stage-6 {
+        font-size: 0.8em;
+        left: 32em;
+        top: 37em;
+    }
+
+    .stage-overlay.stage-7 {
+        font-size: 1em;
+        left: 25em;
+        top: 29.5em;
+    }
+
+    .stage-overlay.stage-8 {
+        font-size: 1em;
+        left: 25em;
+        top: 29.75em;
+    }
+
+    .stage-overlay.stage-9 {
+        font-size: 1em;
+        left: 25em;
+        top: 30em;
+    }
+
+    .stage-overlay.stage-10 {
+        font-size: 0.9em;
+        left: 29em;
+        top: 34em;
+    }
+
+    .stage-overlay.stage-11 {
+        font-size: 1em;
+        left: 25em;
+        top: 29em;
+    }
+
+    .stage-overlay.stage-12 {
+        font-size: 1em;
+        left: 25em;
+        top: 29.5em;
+    }
+
+    .stage-overlay.stage-13 {
+        font-size: 0.8em;
+        left: 32em;
+        top: 36.5em;
+    }
+
+    .stage-overlay.stage-14 {
+        font-size: .8em;
+        left: 31.5em;
+        top: 35em;
+    }
+
+    .stage-overlay.stage-15 {
+        font-size: 1.5em;
+        left: 17em;
+        top: 19.25em;
+    }
+
+    .stage-overlay.stage-16 {
+        font-size: 0.8em;
+        left: 32em;
+        top: 37em;
+    }
+
+    /* BUTTONS */
+    button.next-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.current-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.show-result {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #ffca2c;
+    }
+
+    button.end-game {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #a52834;
+    }
+
+    #icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -6em;
+    }
+
+    #preview-icon {
+        width: 550px;
+        height: 550px;
+    }
+
+    #partner-icon {
+        width: 550px;
+        height: 550px;
+    }
+
+    #start-btn {
+        width: 100px;
+        height: 45px;
+        font-size: 17px;
+        border-radius: 20px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    /* BUTTONS */
+    button.next-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.current-stage {
+        width: 250px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: limegreen;
+    }
+
+    button.show-result {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #ffca2c;
+    }
+
+    button.end-game {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+        border-radius: 50px;
+        color: black;
+        background-color: #a52834;
     }
 }
 
